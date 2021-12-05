@@ -1,0 +1,21 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+# Position Controllers --------------------------------------
+Rev4_position_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: wheel_fr_joint
+  pid_gains: {p: 1.0, i: 0.01, d: 1.0}
+Rev5_position_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: wheel_fl_joint
+  pid_gains: {p: 1.0, i: 0.01, d: 1.0}
+Rev4_position_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: wheel_rl_joint
+  pid_gains: {p: 1.0, i: 0.01, d: 1.0}
+Rev5_position_controller:
+  type: velocity_controllers/JointVelocityController
+  joint: wheel_rr_joint
+  pid_gains: {p: 1.0, i: 0.01, d: 1.0}

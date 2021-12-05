@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<robot name="dbw_mkz" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <material name="black.001">
+      <color rgba="0 0 0 1.0"/>
+    </material>
+
+    <material name="carpaint_002">
+      <color rgba="0.941177 0.941177 0.941177 1.0"/>
+    </material>
+
+    <material name="carpaint_002.001">
+      <color rgba="0.941177 0.941177 0.941177 1.0"/>
+    </material>
+
+    <material name="carpaint_002.002">
+      <color rgba="0.941177 0.941177 0.941177 1.0"/>
+    </material>
+
+    <material name="carpaint_002.003">
+      <color rgba="0.941177 0.941177 0.941177 1.0"/>
+    </material>
+
+
+</robot>
